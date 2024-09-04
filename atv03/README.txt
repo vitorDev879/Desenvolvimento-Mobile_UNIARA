@@ -1,0 +1,3 @@
+1)Altere o aplicativo Android proposto na aula anterior, substitua os botões Somar, Subtrair, Multiplicar e Dividir por um Spinner com as respectivas opções e, posteriormente, implemente os mesmos apenas com um botão Calcular.
+
+2)Crie um aplicativo que possua uma atividade que solicite o nome e senha e mostre em outra atividade os dados do usuário (nome e senha digitados e mais alguns dados fakes). Só ir para a outra tela se a senha estiver correta, caso contrário, mostrar na primeira atividade uma mensagem informando que a senha está incorreta!

@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para o usuário digitar o Valor Mensal -->
+    <EditText
+        android:id="@+id/valorMensal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor Mensal"
+        android:inputType="numberDecimal"/>
+
+    <!-- Campo para o usuário digitar o Valor Ciclo -->
+    <EditText
+        android:id="@+id/valorCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor Ciclo"
+        android:inputType="numberDecimal"/>
+
+    <!-- Campo para o usuário digitar a Qtde Meses de Investimento -->
+    <EditText
+        android:id="@+id/qtdeMesesInvestimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qtde Meses de Investimento"
+        android:inputType="number"/>
+
+    <!-- Campo para o usuário digitar a Qtde Meses de um Ciclo -->
+    <EditText
+        android:id="@+id/qtdeMesesCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qtde Meses de um Ciclo"
+        android:inputType="number"/>
+
+    <!-- Campo para o usuário digitar a Porcentagem de Retorno -->
+    <EditText
+        android:id="@+id/porcentagemRetorno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Porcentagem de Retorno"
+        android:inputType="numberDecimal"/>
+
+    <!-- Campo para o usuário digitar o Saldo Inicial -->
+    <EditText
+        android:id="@+id/saldoInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saldo Inicial"
+        android:inputType="numberDecimal"/>
+
+    <!-- Botão para calcular e enviar os dados para a ResultActivity -->
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+
+</LinearLayout>
